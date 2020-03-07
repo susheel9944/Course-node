@@ -1,0 +1,36 @@
+<!--The content below is only a placeholder and can be replaced. -->
+<div style="text-align:center">
+  <h1>
+     Welcome to {{title}}.
+  </h1>
+</div>
+<!--
+<div>
+  Months: 
+  <select (change) = "changemonths($event)" name="month">
+   <option *ngFor = "let i of months">{{i}}</option> 
+  </select>
+</div>
+<br />
+
+<div>
+  <span *ngIf = "isavailable; else condition2">condition is valid</span>
+  <ng-template #condition1>condition is valid from template</ng-template>
+  <ng-template #condition2>condition is invalid from template</ng-template>
+</div>
+<button (click) = "myClickFunction($event)">
+  Click Me
+</button>  -->
+
+<h1>Custom Pipe</h1>
+<b>Square root of 25 is: {{25 | sqrt}}</b><br/>
+<b>Square root of 729 is: {{729 | sqrt}}</b>
+
+<br />
+<br />
+<br />
+<a routerLink = "new-cmp">New component</a>
+
+<br />
+<br/>
+<router-outlet></router-outlet>
